@@ -32,17 +32,108 @@ body{
 .supervisor{
     position:relative;
     border-top:5px solid rgb(70,210,209);
-    width:25%;
-    left:100px;
+    width:300px;
+    height:200px;
+    left:250px;
     top:200px;
+    box-shadow: 15px 10px 40px black;
+
 }
 .supervisor h2, .supervisor p{
     text-align: left;
     margin-left:10px;
 }
+.supervisor h2{
+    color:rgb(84,86,99);
+}
+.supervisor p{
+    color:rgb(207,208,210);
+}
+.team-builder h2{
+    color:rgb(84,86,99);
+}
+.team-builder p{
+    color:rgb(207,208,210);
+}
+.karma h2{
+    color:rgb(84,86,99);
+}
+.karma p{
+    color:rgb(207,208,210);
+}
+.calculator h2{
+    color:rgb(84,86,99);
+}
+.calculator p{
+    color:rgb(207,208,210);
+}
 .supervisor img{
     position: relative;
     width:15%;
     top:5px;
-    left:150px;
+    left:100px;
+    padding:10px;
+}
+.team-builder{
+    position: absolute;
+    border-top:5px solid rgb(234,84,83);
+    width:300px;
+    height:200px;
+    top:250px;
+    left:650px;
+    padding:10px;
+    box-shadow: 15px 10px 40px black;
+
+}
+.team-builder h2, .team-builder p{
+    text-align: left;
+    margin-left:10px;
+}
+.team-builder img{
+    position: relative;
+    width:15%;
+    top:5px;
+    left:100px;
+    padding:10px;
+}
+.calculator{
+    position: absolute;
+    width:300px;
+    height:200px;
+    border-top:5px solid rgb(84,156,238);
+    right:250px;
+    top:462px;
+    padding:10px;
+    box-shadow: 15px 10px 40px black;
+}
+.calculator h2, .calculator p{
+    text-align: left;
+    margin-left:10px;
+}
+.calculator img{
+    position: relative;
+    width:15%;
+    top:5px;
+    left:100px;
+    padding:10px;
+}
+.karma{
+    position: absolute;
+    border-top:5px solid rgb(235,177,103);
+    bottom:0;
+    left:650px;
+    padding:5px;
+    box-shadow: 15px 10px 40px black;
+
+}
+.karma h2, .karma p{
+    text-align: left;
+    margin-left:10px;
+}
+.karma img{
+    position: relative;
+    width:15%;
+    top:5px;
+    left:100px;
+    padding:10px;
 }
